@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "util": "yarn workspace @common/utils"
+    "util": "yarn workspace @common/utils",
+    "component": "yarn workspace @common/component"
   },
   "devDependencies": {
     "typescript": "^4.9.5"
