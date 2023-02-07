@@ -20,6 +20,21 @@ yarn
 └── .yarnrc.yml
 ```
 
+## next-app 실행
+
+```
+yarn next dev
+
+```
+
+## common code 사용법
+
+```ts
+import { hello } from '@common/utils';
+import { Button } from '@common/component';
+```
+
 ## TODO
-- storybook 
+
+- storybook
 - testcode
