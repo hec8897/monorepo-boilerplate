@@ -3,10 +3,10 @@
   "packageManager": "yarn@3.4.1",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "shared/*"
   ],
   "scripts": {
-    "util": "yarn workspace @common/utils",
+    "utils": "yarn workspace @common/utils",
     "component": "yarn workspace @common/component"
   },
   "devDependencies": {

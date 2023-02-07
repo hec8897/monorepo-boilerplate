@@ -5,9 +5,9 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@common/component@workspace:packages/component":
+"@common/component@workspace:shared/component":
   version: 0.0.0-use.local
-  resolution: "@common/component@workspace:packages/component"
+  resolution: "@common/component@workspace:shared/component"
   dependencies:
     "@types/react": ^18
     "@types/react-dom": ^18
@@ -19,9 +19,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@common/utils@workspace:packages/utils":
+"@common/utils@workspace:shared/utils":
   version: 0.0.0-use.local
-  resolution: "@common/utils@workspace:packages/utils"
+  resolution: "@common/utils@workspace:shared/utils"
   dependencies:
     rimraf: ^4.1.2
     typescript: ^4.9.5

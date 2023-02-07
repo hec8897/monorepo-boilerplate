@@ -3,9 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@common/utils": ["packages/utils/src"]
+      "@common/utils": ["shared/utils/src", "shared/component/src"]
     }
   },
   "files": [],
-  "references": [{ "path": "./packages/utils" }]
+  "references": [{ "path": "./shared/utils" }, { "path": "./shared/component" }]
 }
