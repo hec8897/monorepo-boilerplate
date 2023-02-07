@@ -2,8 +2,10 @@
   "extends": "./tsconfig.spec.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@common/utils": ["packages/utils/src"]
+    }
   },
   "files": [],
-  "references": []
+  "references": [{ "path": "./packages/utils" }]
 }
